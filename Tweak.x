@@ -1,10 +1,10 @@
-@interface BookmarkFavoritesViewController : UIView
+@interface ExplanationCollectionViewCell : UIView
 @property (nonatomic, assign, readwrite, getter = isHidden) BOOL hidden;
 @end
 
-%hook BookmarkFavoritesViewController
+%hook ExplanationCollectionViewCell
 - (void) layoutSubviews{
-  %orig;
+	%orig;
 	self.hidden = YES;
 }
 %end
