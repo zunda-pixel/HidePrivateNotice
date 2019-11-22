@@ -1,4 +1,4 @@
-@interface ExplanationCollectionViewCell : UIView
+@interface ExplanationCollectionViewCell : NSObject
 @property (nonatomic, assign, readwrite, getter = isHidden) BOOL hidden;
 @end
 
