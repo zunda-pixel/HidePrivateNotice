@@ -1,0 +1,9 @@
+Package: com.zunda.hideprivatenotice
+Name: HidePrivateNotice
+Depends: mobilesubstrate
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: zunda
+Author: zunda
+Section: Tweaks
