@@ -1,4 +1,3 @@
-INSTALL_TARGET_PROCESSES = SpringBoard
 include $(THEOS)/makefiles/common.mk
 TWEAK_NAME = HidePrivateNotice
 HideNCText_FILES = Tweak.x
